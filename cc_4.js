@@ -9,6 +9,7 @@ if (purchaseValue>100) {
 const finalAmount=purchaseValue-(purchaseValue*.1);//calculate discounted price
 console.log(`Final Amount After Discount: $${finalAmount}`)
 
+
 //Task 2-For Loop
 const sales=[120,85,200,150,90]
 let sum=0
@@ -18,3 +19,9 @@ for(let i=0; i<sales.length; i++){
 console.log(`Total Sale`,sum)
 
 
+//Task 3-While Loop
+var stock=10;
+while(stock>0){
+    stock--;
+    console.log(stock);
+}
