@@ -1,0 +1,1 @@
+ISM3232 Coding Challenge 4, practicing using various control flow statements and function types to solve business-related scenarios. This challenge will enhances understanding of conditional statements, loops, and different ways to declare functions in JavaScript.
