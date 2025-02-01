@@ -14,6 +14,7 @@ const sales=[120,85,200,150,90]
 let sum=0
 for(let i=0; i<sales.length; i++){
     sum+=sales[i];
-}
+};//use for loop to find sum of sales
 console.log(`Total Sale`,sum)
+
 
