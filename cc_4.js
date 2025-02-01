@@ -7,6 +7,6 @@ if (purchaseValue>100) {
     console.log("No Discount")
 };//state whether discount or not
 const finalAmount=purchaseValue-(purchaseValue*.1);//calculate discounted price
-console.log("Final Amount After Discount:",finalAmount)
+console.log(`Final Amount After Discount: $${finalAmount}`)
 
 
