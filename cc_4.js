@@ -1,0 +1,1 @@
+let purchaseValue=400
