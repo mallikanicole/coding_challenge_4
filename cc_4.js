@@ -23,5 +23,7 @@ console.log(`Total Sale`,sum)
 var stock=10;
 while(stock>0){
     stock--;
-    console.log(stock);
-}
+    console.log(`Inventory left: ${stock}`);
+};//decrease stock until it reaches 0
+console.log(`Inventory Depleted`)
+
