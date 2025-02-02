@@ -66,7 +66,7 @@ orders.forEach(order => {
 //Task 8-Function Declaration
 function calculateTax(amount){
     return amount*taxRate;
-}
-taxRate=.08
-console.log(`Tax:${calculateTax(100)}`)
+};//declare function
+taxRate=.08;//define tax rate
+console.log(`Tax:${calculateTax(100)}`);//calculate and log tax
 
