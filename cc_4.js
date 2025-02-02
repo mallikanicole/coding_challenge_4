@@ -37,3 +37,16 @@ do {
 console.log(`Survey Responses Recieved: ${responses}`)
 
 
+//Task 5-For...in Loop
+let employee={
+    name:"Alice",
+    position:"Manager",
+    salary:"75000"
+};//declare employee
+let text="";
+for (let x in employee) {
+    console.log(`${text}${employee[x]}`);
+};//for in loop
+
+
+
