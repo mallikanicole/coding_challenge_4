@@ -49,4 +49,8 @@ for (let x in employee) {
 };//for in loop
 
 
-
+//Task 6-For...Of Loop
+let products=["Laptop","Mouse","Keyboard"];//list products
+for (const product of products) {
+    console.log(`Product:${product}`);
+};//for of loop
