@@ -63,3 +63,10 @@ orders.forEach(order => {
 });//list orders separately
 
 
+//Task 8-Function Declaration
+function calculateTax(amount){
+    return amount*taxRate;
+}
+taxRate=.08
+console.log(`Tax:${calculateTax(100)}`)
+
