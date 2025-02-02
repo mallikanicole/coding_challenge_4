@@ -70,3 +70,10 @@ function calculateTax(amount){
 taxRate=.08;//define tax rate
 console.log(`Tax:${calculateTax(100)}`);//calculate and log tax
 
+
+//Task 9-Function Expressions
+function applyDiscount(price){
+    return price*discountPercentage;
+};//declare discount function
+discountPercentage=.2
+console.log(`Discounted Price:${applyDiscount(300)}`);//apply discount and log price
