@@ -54,3 +54,12 @@ let products=["Laptop","Mouse","Keyboard"];//list products
 for (const product of products) {
     console.log(`Product:${product}`);
 };//for of loop
+
+
+//Task 7-forEach()Method
+let orders=[101,102,103];//list orders
+orders.forEach(order => {
+    console.log(`Order ID:${order}`);
+});//list orders separately
+
+
