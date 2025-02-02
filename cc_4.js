@@ -27,3 +27,13 @@ while(stock>0){
 };//decrease stock until it reaches 0
 console.log(`Inventory Depleted`)
 
+
+//Task 4-Do...While Loop
+var responses=0;
+do {
+    console.log(`Responses: ${responses}`);
+    responses++;
+} while (responses<3);//Collecting survey responses
+console.log(`Survey Responses Recieved: ${responses}`)
+
+
