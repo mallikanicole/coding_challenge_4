@@ -68,7 +68,7 @@ function calculateTax(amount){
     return amount*taxRate;
 };//declare function
 taxRate=.08;//define tax rate
-console.log(`Tax:${calculateTax(100)}`);//calculate and log tax
+console.log(`Tax:$${calculateTax(100)}`);//calculate and log tax
 
 
 //Task 9-Function Expressions
@@ -76,4 +76,10 @@ function applyDiscount(price){
     return price*discountPercentage;
 };//declare discount function
 discountPercentage=.2
-console.log(`Discounted Price:${applyDiscount(300)}`);//apply discount and log price
+console.log(`Discounted Price:$${applyDiscount(300)}`);//apply discount and log price
+
+//Task 10-Arrow Functions
+function calculatePoints(purchaseAmount){
+    return (purchaseAmount/10);
+}
+console.log(`Points Earned:${calculatePoints(500)}`);//calculate ponts earned on $500 purchase
